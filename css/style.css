@@ -1,0 +1,227 @@
+form.contactform p{
+    width: 90%;
+}
+
+form.contactform .contact-submit{
+    width: 150px;
+    background-color: #3D91D6;
+    color: white;
+}
+
+form.contactform input{
+    background-color: white;
+    border: 2px solid #3D91D6;
+    height: 60px;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+    padding: 0 10px 0 10px;
+    width: 100%;
+}
+
+form.contactform input.calendar {
+    background-image: url('../img/calendar.png');
+    background-repeat:no-repeat;
+    background-position: right;
+    background-size: 8%;
+    cursor: pointer;
+}
+
+form.contactform input:hover, textarea:hover {
+    border: 2px solid #3D91D6;
+}
+
+form.contactform textarea{
+    width: 100%;
+    background-color: white;
+    border: 2px solid #3D91D6;
+    height: 180px;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+    padding: 0 10px 0 10px;
+}
+
+form.contactform label {
+    color:    #2E2E2E;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+}
+
+form.contactform input[type="checkbox"] {
+    border: 2px solid #3D91D6;
+    padding: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+    border-radius:4px;
+    -webkit-appearance:button;
+    white-space: nowrap;
+    overflow:hidden;
+    width:15px;
+    height:15px;
+}
+
+form.contactform input[type=checkbox]:checked {
+    background-color:#000000;
+}
+
+form.contactform input[type=checkbox]:hover {
+    box-shadow:0px 0px 10px #1300ff;
+}
+
+form.contactform input[type="radio"] {
+    border: 2px solid #3D91D6;
+    padding: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+    border-radius:15px;
+    -webkit-appearance:button;
+    white-space: nowrap;
+    overflow:hidden;
+    width:15px;
+    height:15px;
+}
+
+form.contactform input[type=radio]:checked {
+    background-color:#000000;
+}
+
+form.contactform input[type=radio]:hover {
+    box-shadow:0px 0px 10px #1300ff;
+}
+
+form.contactform div#ConfirmationMsg {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 16px;
+    padding: 20px;
+    margin:10px;
+    border: 1px dotted #d2d2d2;
+}
+
+form.contactform td {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+input[placeholder] {
+    color:    #2E2E2E;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+    text-overflow:ellipsis;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #2E2E2E;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+    text-overflow: ellipsis;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #2E2E2E;
+   opacity:  1;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+    text-overflow: ellipsis;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #2E2E2E;
+   opacity:  1;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+    text-overflow: ellipsis;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #2E2E2E;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+    text-overflow: ellipsis;
+}
+
+select.dropdownselect {
+    height: 60px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+    padding: 0 10px 0 10px;
+    border: 2px solid #3D91D6;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    background: white;
+    color:#2E2E2E;
+    outline:none;
+    display: inline-block;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance:none;
+    cursor:pointer;
+    float: left;
+    background-image: url('../img/down-arrow.png');
+    background-repeat:no-repeat;
+    background-position: right;
+    background-size: 8%;
+}
+
+.choices {
+    font-size: 16px;
+    font-weight: bold;
+    color:#2E2E2E;
+}
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+
+
+/* ADMIN */
+
+.holder {
+
+}
+
+.left {
+    position: relative;
+    width: 35%;
+    float:left;
+}
+
+.right {
+    position: relative;
+    width: 55%;
+    float: left;
+    border: 1px solid #d2d2d2;
+    padding: 10px;
+}
+
+.field {
+    border: 1px solid blue;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.right .submit {
+    padding: 10px;
+}
+
+.right button.delete {
+    position: relative;
+    float: right;
+}
